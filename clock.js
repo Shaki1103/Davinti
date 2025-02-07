@@ -13,6 +13,8 @@ function displayTime(){
 
     ss += 30;
 
+    ss %= 60;
+
 
     let hRotation = 30 * hh + mm/2;
     let mRotation = 6 * mm;
