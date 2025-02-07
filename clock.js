@@ -11,6 +11,8 @@ function displayTime(){
     let mm = date.getMinutes();
     let ss = date.getSeconds();
 
+    ss += 30;
+
 
     let hRotation = 30 * hh + mm/2;
     let mRotation = 6 * mm;
