@@ -11,10 +11,6 @@ function displayTime(){
     let mm = date.getMinutes();
     let ss = date.getSeconds();
 
-    ss += 30;
-
-    ss %= 60;
-
 
     let hRotation = 30 * hh + mm/2;
     let mRotation = 6 * mm;
@@ -25,6 +21,7 @@ function displayTime(){
 
     hour.style.transform = `rotate(${hRotation}deg)`;
     min.style.transform = `rotate(${mRotation}deg)`;
+    sec.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     
 
