@@ -71,6 +71,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    -webkit-justify-content: center;
+    -webkit-align-items: flex-end;
 }
 
 .hand i{
