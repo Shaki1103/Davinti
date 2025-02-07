@@ -20,7 +20,7 @@ function displayTime(){
     
 
     hour.style.transform = `rotate(${hRotation}deg)`;
-    min.style.transform = `rotate(${mRotation}deg)`;
+    min.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     
