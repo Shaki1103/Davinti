@@ -22,9 +22,9 @@ function displayTime(){
     sec.style.transform = `rotate(${sRotation}deg)`;
     
 
-    hour.style.-webkit-transform = `rotate(${hRotation}deg)`;
-    min.style.-webkit-transform = `rotate(${mRotation}deg)`;
-    sec.style.-webkit-transform = `rotate(${sRotation}deg)`;
+    hour.style.webkittransform = `rotate(${hRotation}deg)`;
+    min.style.webkittransform = `rotate(${mRotation}deg)`;
+    sec.style.webkittransform = `rotate(${sRotation}deg)`;
 }
 
 setInterval(displayTime, 1000);
