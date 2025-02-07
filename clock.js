@@ -17,13 +17,13 @@ function displayTime(){
     let sRotation = 6 * ss;
     
 
-    hour.style.transform = `rotate(${hRotation}deg)`;
-    min.style.transform = `rotate(${mRotation}deg)`;
+    hour.style.transform = `rotate(${sRotation}deg)`;
+    min.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     
 
-    hour.style.webkittransform = `rotate(${hRotation}deg)`;
-    min.style.webkittransform = `rotate(${mRotation}deg)`;
+    hour.style.webkittransform = `rotate(${sRotation}deg)`;
+    min.style.webkittransform = `rotate(${sRotation}deg)`;
     sec.style.webkittransform = `rotate(${sRotation}deg)`;
 }
 
