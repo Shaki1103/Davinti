@@ -21,6 +21,11 @@ function displayTime(){
     min.style.transform = `rotate(${mRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
 
+    hour.style.-webkit-transform = `rotate(${hRotation}deg)`;
+    min.style.-webkit-transform = `rotate(${mRotation}deg)`;
+    sec.style.-webkit-transform = `rotate(${sRotation}deg)`;
+    
+
     
 }
 
