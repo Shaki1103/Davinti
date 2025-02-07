@@ -23,13 +23,13 @@ function displayTime(){
     console.log(sRotation);
     
 
-    hour.style.transform = `rotate(${sRotation}deg)`;
-    min.style.transform = `rotate(${sRotation}deg)`;
+    hour.style.transform = `rotate(${hRotation}deg)`;
+    min.style.transform = `rotate(${mRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     
 
-    hour.style.webkittransform = `rotate(${sRotation}deg)`;
-    min.style.webkittransform = `rotate(${sRotation}deg)`;
+    hour.style.webkittransform = `rotate(${hRotation}deg)`;
+    min.style.webkittransform = `rotate(${mRotation}deg)`;
     sec.style.webkittransform = `rotate(${sRotation}deg)`;
 }
 
