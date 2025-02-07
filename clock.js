@@ -19,7 +19,7 @@ function displayTime(){
     console.log(sRotation);
     
 
-    hour.style.transform = `rotate(${hRotation}deg)`;
+    hour.style.transform = `rotate(${sRotation}deg)`;
     min.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
     sec.style.transform = `rotate(${sRotation}deg)`;
@@ -27,6 +27,7 @@ function displayTime(){
 
     hour.style.webkittransform = `rotate(${hRotation}deg)`;
     min.style.webkittransform = `rotate(${mRotation}deg)`;
+    sec.style.webkittransform = `rotate(${sRotation}deg)`;
     sec.style.webkittransform = `rotate(${sRotation}deg)`;
 }
 
