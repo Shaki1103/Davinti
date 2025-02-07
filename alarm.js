@@ -1,5 +1,5 @@
 let input_time = document.getElementById('wake_up_time');
-let wake_up_button = document.getElementById('wake_up_button')
+let wake_up_button = document.getElementById('wake_up_button');
 let image_loader = document.getElementById('image_loader');
 let image_loader_button = document.getElementById('image_loader_button');
 let pics = document.getElementById("pic");
@@ -30,7 +30,7 @@ wake_up_button.addEventListener('click', ()=>{
         
         wake_up_button.style.color = "blue";
     }
-})
+});
 
 image_loader_button.addEventListener('click', ()=>{
     image_loader.click();
@@ -49,7 +49,7 @@ image_loader.addEventListener('change', (event)=>{
     image_loader_button.style.color = "blue";
 
     reader.readAsDataURL(img);
-})
+});
 
 function set_alarm(hour, minuites, second){
     alarm_time_h = hour;
