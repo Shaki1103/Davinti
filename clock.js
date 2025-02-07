@@ -27,4 +27,4 @@ function displayTime(){
     sec.style.webkittransform = `rotate(${sRotation}deg)`;
 }
 
-setInterval(displayTime, 1000);
+setInterval(displayTime, 100);
